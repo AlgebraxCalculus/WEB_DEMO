@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin - QLTG</title>
+    <link rel="stylesheet" href="ADMIN_QLTG.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+    <header class="navbar">
+        <div class="logo">
+            <img src="LogoWeb.png" alt="Ảnh tên web">
+        </div>
+        <nav class="menu">
+            <ul>
+                <li><a href="#">Trang chủ</a></li>
+                <li class="dropdown">
+                    <a href="#">Giải đấu <i class="fas fa-chevron-down dropdown-icon"></i></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Premier League</a></li>
+                        <li><a href="#">La Liga</a></li>
+                        <li><a href="#">Bundesliga</a></li>
+                        <li><a href="#">Ligue 1</a></li>
+                        <li><a href="#">V.League 1</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Bóng đá Việt Nam</a></li>
+                <li><a href="#">Bóng đá thế giới</a></li>
+            </ul>
+        </nav>
+        <div class="icon">
+            <a href="#" target="_blank">
+                <img src="SearchIcon.png" alt="Search Icon">
+            </a>
+            <a href="#" target="_blank">
+                <img src="UserIcon.png" alt="User Icon">
+            </a>
+        </div>
+    </header>
+    <div class="container">
+        <aside class="sidebar">
+            <ul>
+                <li><a href="#">Quản lý bài báo</a></li>
+                <li><a href="#">Quản lý giải đấu</a></li>
+                <li><a href="#">Quản lý người dùng</a></li>
+                <li><a href="#">Quản lý tác giả</a></li>
+                <li><a href="#">Thông tin cá nhân</a></li>
+                <li><a href="#">Đăng xuất</a></li>
+            </ul>
+        </aside>
+        <main class="content">
+            <div class="Personal_Info">
+                <div class="left">
+                    <h2>Đỗ Trung Quân</h2>
+                    <h3>ADMIN ID: AD190804</h3>
+                </div>
+                <div class="right"><img src="cat.jpg" alt=""></div>
+            </div>
+            <div class="functionBar">
+                <input type="text" class="search-box" placeholder="Tìm kiếm...">
+            </div>        
+            <table>
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Tên tài khoản</th>
+                        <th>Số bài viết</th>
+                        <th>Ngày đăng ký</th>
+                        <th>Hành động</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <tr>
+                            <td>AD190804</td>
+                            <td>123asc</td>
+                            <td>20</td>
+                            <td>04/03/2025</td>
+                            <td><i class="fa-regular fa-eye"></i>
+                                <i class="fa-solid fa-pen"></i>
+                                <i class="fa-solid fa-trash-can"></i></td>
+                        </tr>
+                        <tr>
+                            <td>allah9/11</td>
+                            <td>Premier League</td>
+                            <td>20</td>
+                            <td>04/03/2025</td>
+                            <td><i class="fa-regular fa-eye"></i>
+                                <i class="fa-solid fa-pen"></i>
+                                <i class="fa-solid fa-trash-can"></i></td>
+                        </tr>
+                        <tr>
+                            <td>allah9/11</td>
+                            <td>Premier League</td>
+                            <td>20</td>
+                            <td>04/03/2025</td>
+                            <td><i class="fa-regular fa-eye"></i>
+                                <i class="fa-solid fa-pen"></i>
+                                <i class="fa-solid fa-trash-can"></i>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>allah9/11</td>
+                            <td>Premier League</td>
+                            <td>20</td>
+                            <td>04/03/2025</td>
+                            <td><i class="fa-regular fa-eye"></i>
+                                <i class="fa-solid fa-pen"></i>
+                                <i class="fa-solid fa-trash-can"></i></td>
+                        </tr>
+                        <tr>
+                            <td>allah9/11</td>
+                            <td>Premier League</td>
+                            <td>20</td>
+                            <td>04/03/2025</td>
+                            <td><i class="fa-regular fa-eye"></i>
+                                <i class="fa-solid fa-pen"></i>
+                                <i class="fa-solid fa-trash-can"></i></td>
+                        </tr>
+                        <tr>
+                            <td>allah9/11</td>
+                            <td>Premier League</td>
+                            <td>20</td>
+                            <td>04/03/2025</td>
+                            <td><i class="fa-regular fa-eye"></i>
+                                <i class="fa-solid fa-pen"></i>
+                                <i class="fa-solid fa-trash-can"></i></td>
+                        </tr>
+                    </tr>
+                </tbody>
+            </table>
+        </main>
+    </div>
+    <div class="pagination">
+        <button class="prev" disabled>← Previous</button>
+        <button class="page active">1</button>
+        <button class="page">2</button>
+        <button class="page">3</button>
+        <span class="dots">...</span>
+        <button class="page">67</button>
+        <button class="page">68</button>
+        <button class="next">Next →</button>
+    </div>    
+    <script src="ADMIN_QLTG.js"></script>
+</body>
+</html>
